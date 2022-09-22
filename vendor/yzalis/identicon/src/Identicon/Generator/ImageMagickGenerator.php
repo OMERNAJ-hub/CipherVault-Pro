@@ -96,3 +96,4 @@ class ImageMagickGenerator extends BaseGenerator implements GeneratorInterface
         return $this->generatedImage;
     }
 }
+

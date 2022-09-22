@@ -80,3 +80,4 @@ class PngPalette
      */
     public array $lookup;
 }
+

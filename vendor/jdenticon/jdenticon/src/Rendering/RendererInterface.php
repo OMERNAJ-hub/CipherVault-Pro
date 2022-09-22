@@ -139,3 +139,4 @@ interface RendererInterface
      */
     public function getData(): string;
 }
+

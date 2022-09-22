@@ -33,3 +33,4 @@ class TriangleDirection
      */
     public const SOUTH_EAST = 3;
 }
+

@@ -41,3 +41,4 @@ interface GeneratorInterface
 	 */
 	public function getColor();
 }
+

@@ -17,7 +17,7 @@ class ComposerStaticInitDontChange
         ),
         'P' => 
         array (
-            'PrivateBin\\' => 11,
+            'CipherVault\\' => 11,
         ),
         'J' => 
         array (
@@ -35,7 +35,7 @@ class ComposerStaticInitDontChange
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
         ),
-        'PrivateBin\\' => 
+        'CipherVault\\' => 
         array (
             0 => __DIR__ . '/../..' . '/lib',
         ),
@@ -115,33 +115,33 @@ class ComposerStaticInitDontChange
         'Jdenticon\\Shapes\\ShapeCategory' => __DIR__ . '/..' . '/jdenticon/jdenticon/src/Shapes/ShapeCategory.php',
         'Jdenticon\\Shapes\\ShapeDefinitions' => __DIR__ . '/..' . '/jdenticon/jdenticon/src/Shapes/ShapeDefinitions.php',
         'PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
-        'PrivateBin\\Configuration' => __DIR__ . '/../..' . '/lib/Configuration.php',
-        'PrivateBin\\Controller' => __DIR__ . '/../..' . '/lib/Controller.php',
-        'PrivateBin\\Data\\AbstractData' => __DIR__ . '/../..' . '/lib/Data/AbstractData.php',
-        'PrivateBin\\Data\\Database' => __DIR__ . '/../..' . '/lib/Data/Database.php',
-        'PrivateBin\\Data\\Filesystem' => __DIR__ . '/../..' . '/lib/Data/Filesystem.php',
-        'PrivateBin\\Data\\GoogleCloudStorage' => __DIR__ . '/../..' . '/lib/Data/GoogleCloudStorage.php',
-        'PrivateBin\\Data\\S3Storage' => __DIR__ . '/../..' . '/lib/Data/S3Storage.php',
-        'PrivateBin\\Exception\\TranslatedException' => __DIR__ . '/../..' . '/lib/Exception/TranslatedException.php',
-        'PrivateBin\\Filter' => __DIR__ . '/../..' . '/lib/Filter.php',
-        'PrivateBin\\FormatV2' => __DIR__ . '/../..' . '/lib/FormatV2.php',
-        'PrivateBin\\I18n' => __DIR__ . '/../..' . '/lib/I18n.php',
-        'PrivateBin\\Json' => __DIR__ . '/../..' . '/lib/Json.php',
-        'PrivateBin\\Model' => __DIR__ . '/../..' . '/lib/Model.php',
-        'PrivateBin\\Model\\AbstractModel' => __DIR__ . '/../..' . '/lib/Model/AbstractModel.php',
-        'PrivateBin\\Model\\Comment' => __DIR__ . '/../..' . '/lib/Model/Comment.php',
-        'PrivateBin\\Model\\Paste' => __DIR__ . '/../..' . '/lib/Model/Paste.php',
-        'PrivateBin\\Persistence\\AbstractPersistence' => __DIR__ . '/../..' . '/lib/Persistence/AbstractPersistence.php',
-        'PrivateBin\\Persistence\\PurgeLimiter' => __DIR__ . '/../..' . '/lib/Persistence/PurgeLimiter.php',
-        'PrivateBin\\Persistence\\ServerSalt' => __DIR__ . '/../..' . '/lib/Persistence/ServerSalt.php',
-        'PrivateBin\\Persistence\\TrafficLimiter' => __DIR__ . '/../..' . '/lib/Persistence/TrafficLimiter.php',
-        'PrivateBin\\Proxy\\AbstractProxy' => __DIR__ . '/../..' . '/lib/Proxy/AbstractProxy.php',
-        'PrivateBin\\Proxy\\ShlinkProxy' => __DIR__ . '/../..' . '/lib/Proxy/ShlinkProxy.php',
-        'PrivateBin\\Proxy\\YourlsProxy' => __DIR__ . '/../..' . '/lib/Proxy/YourlsProxy.php',
-        'PrivateBin\\Request' => __DIR__ . '/../..' . '/lib/Request.php',
-        'PrivateBin\\TemplateSwitcher' => __DIR__ . '/../..' . '/lib/TemplateSwitcher.php',
-        'PrivateBin\\View' => __DIR__ . '/../..' . '/lib/View.php',
-        'PrivateBin\\Vizhash16x16' => __DIR__ . '/../..' . '/lib/Vizhash16x16.php',
+        'CipherVault\\Configuration' => __DIR__ . '/../..' . '/lib/Configuration.php',
+        'CipherVault\\Controller' => __DIR__ . '/../..' . '/lib/Controller.php',
+        'CipherVault\\Data\\AbstractData' => __DIR__ . '/../..' . '/lib/Data/AbstractData.php',
+        'CipherVault\\Data\\Database' => __DIR__ . '/../..' . '/lib/Data/Database.php',
+        'CipherVault\\Data\\Filesystem' => __DIR__ . '/../..' . '/lib/Data/Filesystem.php',
+        'CipherVault\\Data\\GoogleCloudStorage' => __DIR__ . '/../..' . '/lib/Data/GoogleCloudStorage.php',
+        'CipherVault\\Data\\S3Storage' => __DIR__ . '/../..' . '/lib/Data/S3Storage.php',
+        'CipherVault\\Exception\\TranslatedException' => __DIR__ . '/../..' . '/lib/Exception/TranslatedException.php',
+        'CipherVault\\Filter' => __DIR__ . '/../..' . '/lib/Filter.php',
+        'CipherVault\\FormatV2' => __DIR__ . '/../..' . '/lib/FormatV2.php',
+        'CipherVault\\I18n' => __DIR__ . '/../..' . '/lib/I18n.php',
+        'CipherVault\\Json' => __DIR__ . '/../..' . '/lib/Json.php',
+        'CipherVault\\Model' => __DIR__ . '/../..' . '/lib/Model.php',
+        'CipherVault\\Model\\AbstractModel' => __DIR__ . '/../..' . '/lib/Model/AbstractModel.php',
+        'CipherVault\\Model\\Comment' => __DIR__ . '/../..' . '/lib/Model/Comment.php',
+        'CipherVault\\Model\\Paste' => __DIR__ . '/../..' . '/lib/Model/Paste.php',
+        'CipherVault\\Persistence\\AbstractPersistence' => __DIR__ . '/../..' . '/lib/Persistence/AbstractPersistence.php',
+        'CipherVault\\Persistence\\PurgeLimiter' => __DIR__ . '/../..' . '/lib/Persistence/PurgeLimiter.php',
+        'CipherVault\\Persistence\\ServerSalt' => __DIR__ . '/../..' . '/lib/Persistence/ServerSalt.php',
+        'CipherVault\\Persistence\\TrafficLimiter' => __DIR__ . '/../..' . '/lib/Persistence/TrafficLimiter.php',
+        'CipherVault\\Proxy\\AbstractProxy' => __DIR__ . '/../..' . '/lib/Proxy/AbstractProxy.php',
+        'CipherVault\\Proxy\\ShlinkProxy' => __DIR__ . '/../..' . '/lib/Proxy/ShlinkProxy.php',
+        'CipherVault\\Proxy\\YourlsProxy' => __DIR__ . '/../..' . '/lib/Proxy/YourlsProxy.php',
+        'CipherVault\\Request' => __DIR__ . '/../..' . '/lib/Request.php',
+        'CipherVault\\TemplateSwitcher' => __DIR__ . '/../..' . '/lib/TemplateSwitcher.php',
+        'CipherVault\\View' => __DIR__ . '/../..' . '/lib/View.php',
+        'CipherVault\\Vizhash16x16' => __DIR__ . '/../..' . '/lib/Vizhash16x16.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Symfony\\Polyfill\\Php80\\Php80' => __DIR__ . '/..' . '/symfony/polyfill-php80/Php80.php',
         'Symfony\\Polyfill\\Php80\\PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/PhpToken.php',
@@ -159,3 +159,4 @@ class ComposerStaticInitDontChange
         }, null, ClassLoader::class);
     }
 }
+

@@ -201,3 +201,4 @@ abstract class AbstractRenderer implements RendererInterface
         ], $invert);
     }
 }
+

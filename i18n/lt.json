@@ -1,7 +1,7 @@
 {
-    "PrivateBin": "PrivateBin",
+    "CipherVault": "CipherVault",
     "%s is a minimalist, open source online pastebin where the server has zero knowledge of stored data. Data is encrypted/decrypted %sin the browser%s using 256 bits AES.": "%s yra minimalistinis, atvirojo kodo internetinis įdėjimų dėklas, kurį naudojant, serveris nieko nenutuokia apie įdėtus duomenis. Duomenys yra šifruojami/iššifruojami %snaršyklėje%s naudojant 256 bitų AES.",
-    "More information on the <a href=\"https://privatebin.info/\">project page</a>.": "Daugiau informacijos rasite <a href=\"https://privatebin.info/\">projekto puslapyje</a>.",
+    "More information on the <a href=\"https://CipherVault.info/\">project page</a>.": "Daugiau informacijos rasite <a href=\"https://CipherVault.info/\">projekto puslapyje</a>.",
     "Because ignorance is bliss": "Nes nežinojimas yra palaima",
     "Document does not exist, has expired or has been deleted.": "Dokumento nėra, jis nebegalioja arba buvo ištrintas.",
     "%s requires php %s or above to work. Sorry.": "%s savo darbui reikalauja php %s arba naujesnės versijos. Apgailestaujame.",
@@ -236,3 +236,4 @@
     "Cmd": "Cmd",
     "Ctrl": "Ctrl"
 }
+

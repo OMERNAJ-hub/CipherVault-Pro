@@ -580,3 +580,4 @@ class IPv4 implements AddressInterface
         return new static(implode('.', $sum));
     }
 }
+

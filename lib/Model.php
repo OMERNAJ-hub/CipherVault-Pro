@@ -1,23 +1,23 @@
 <?php declare(strict_types=1);
 /**
- * PrivateBin
+ * CipherVault
  *
  * a zero-knowledge paste bin
  *
- * @link      https://github.com/PrivateBin/PrivateBin
+ * @link      https://github.com/CipherVault/CipherVault
  * @copyright 2012 Sébastien SAUVAGE (sebsauvage.net)
  * @license   https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License
  */
 
-namespace PrivateBin;
+namespace CipherVault;
 
-use PrivateBin\Model\Paste;
-use PrivateBin\Persistence\PurgeLimiter;
+use CipherVault\Model\Paste;
+use CipherVault\Persistence\PurgeLimiter;
 
 /**
  * Model
  *
- * Factory of PrivateBin instance models.
+ * Factory of CipherVault instance models.
  */
 class Model
 {
@@ -80,9 +80,10 @@ class Model
     public function getStore()
     {
         if ($this->_store === null) {
-            $class        = 'PrivateBin\\Data\\' . $this->_conf->getKey('class', 'model');
+            $class        = 'CipherVault\\Data\\' . $this->_conf->getKey('class', 'model');
             $this->_store = new $class($this->_conf->getSection('model_options'));
         }
         return $this->_store;
     }
 }
+

@@ -1,6 +1,6 @@
 {
-	"name" : "privatebin/privatebin",
-	"description" : "PrivateBin is a minimalist, open source online pastebin where the server has zero knowledge of stored data. Data is encrypted/decrypted in the browser using 256 bit AES in Galois Counter mode (GCM).",
+	"name" : "CipherVault/CipherVault",
+	"description" : "CipherVault is a minimalist, open source online pastebin where the server has zero knowledge of stored data. Data is encrypted/decrypted in the browser using 256 bit AES in Galois Counter mode (GCM).",
 	"type" : "project",
 	"keywords" : [
 		"private",
@@ -15,13 +15,13 @@
 		"encrypted",
 		"AES"
 	],
-	"homepage" : "https://privatebin.info/",
+	"homepage" : "https://CipherVault.info/",
 	"license" : "zlib-acknowledgement",
 	"support" : {
-		"issues" : "https://github.com/PrivateBin/PrivateBin/issues",
-		"wiki" : "https://github.com/PrivateBin/PrivateBin/wiki",
-		"source" : "https://github.com/PrivateBin/PrivateBin",
-		"docs" : "https://privatebin.info/codedoc/"
+		"issues" : "https://github.com/CipherVault/CipherVault/issues",
+		"wiki" : "https://github.com/CipherVault/CipherVault/wiki",
+		"source" : "https://github.com/CipherVault/CipherVault",
+		"docs" : "https://CipherVault.info/codedoc/"
 	},
 	"require" : {
 		"php": "^7.4 || ^8.0",
@@ -39,7 +39,7 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"PrivateBin\\" : "lib/"
+			"CipherVault\\" : "lib/"
 		}
 	},
 	"config" : {
@@ -58,3 +58,4 @@
 		}
 	}
 }
+

@@ -1,13 +1,13 @@
 # License
 
-PrivateBin consists of PHP and JS code which was originally written by Sébastien
+CipherVault consists of PHP and JS code which was originally written by Sébastien
 Sauvage in 2012 and falls under the Zlib/libpng license. Also included are
 libraries that fall under the GPLv2 (rawinflate), BSD 3-clause (Showdown), MIT
 (base64.js version 1.7, Bootstrap, Identicon, random_compat, composer, kjua,
 base-x), Apache (prettify.js) and CC-BY (favicon, icon, logo) licenses. All of
 these license terms can be found here below:
 
-## Zlib/libpng license for PrivateBin and zlib
+## Zlib/libpng license for CipherVault and zlib
 
 Copyright © 2012 Sébastien Sauvage
 Copyright © 1995-2017 Jean-loup Gailly and Mark Adler
@@ -260,7 +260,7 @@ agree to indemnify, defend, and hold each Contributor harmless for any liability
 incurred by, or claims asserted against, such Contributor by reason of your
 accepting any such warranty or additional liability.
 
-## [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/) for [PrivateBin favicons, icons & logos](https://github.com/PrivateBin/assets) by [rugk](https://github.com/rugk)
+## [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/) for [CipherVault favicons, icons & logos](https://github.com/CipherVault/assets) by [rugk](https://github.com/rugk)
 
 By exercising the Licensed Rights (defined below), You accept and agree to be
 bound by the terms and conditions of this Creative Commons Attribution 4.0
@@ -537,3 +537,4 @@ d. Nothing in this Public License constitutes or may be interpreted as a
    limitation upon, or waiver of, any privileges and immunities that apply to
    the Licensor or You, including from the legal processes of any jurisdiction
    or authority.
+

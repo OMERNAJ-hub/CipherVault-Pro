@@ -40,3 +40,4 @@ if (!function_exists('get_debug_type')) {
 if (!function_exists('get_resource_id')) {
     function get_resource_id($resource): int { return p\Php80::get_resource_id($resource); }
 }
+

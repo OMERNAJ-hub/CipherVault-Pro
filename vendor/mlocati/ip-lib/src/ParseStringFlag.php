@@ -77,3 +77,4 @@ class ParseStringFlag
      */
     const ADDRESS_MAYBE_RDNS = 32;
 }
+

@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
 /**
- * PrivateBin
+ * CipherVault
  *
  * a zero-knowledge paste bin
  *
- * @link      https://github.com/PrivateBin/PrivateBin
+ * @link      https://github.com/CipherVault/CipherVault
  * @copyright 2012 Sébastien SAUVAGE (sebsauvage.net)
  * @license   https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License
  */
 
-namespace PrivateBin;
+namespace CipherVault;
 
 use AppendIterator;
 use GlobIterator;
@@ -86,7 +86,7 @@ class I18n
      */
     public static function _($messageId, ...$args)
     {
-        return forward_static_call_array('PrivateBin\I18n::translate', func_get_args());
+        return forward_static_call_array('CipherVault\I18n::translate', func_get_args());
     }
 
     /**
@@ -464,3 +464,4 @@ class I18n
         return $i === 0 ? 0 : (float) $i / count($a);
     }
 }
+

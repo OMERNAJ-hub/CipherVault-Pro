@@ -1,9 +1,9 @@
 /**
- * PrivateBin
+ * CipherVault
  *
  * Common cascading style sheets for all templates.
  *
- * @link      https://github.com/PrivateBin/PrivateBin
+ * @link      https://github.com/CipherVault/CipherVault
  * @copyright 2012 Sébastien SAUVAGE (sebsauvage.net)
  * @license   https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License
  */
@@ -105,3 +105,4 @@
 	background-color: #fd8;
 	transition: background-color 0.2s ease-in;
 }
+

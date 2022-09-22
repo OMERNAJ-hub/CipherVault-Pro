@@ -290,3 +290,4 @@ class ImagickRenderer extends AbstractRenderer
         return $imagick->getImageBlob();
     }
 }
+

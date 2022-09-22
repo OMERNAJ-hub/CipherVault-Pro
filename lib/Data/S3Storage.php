@@ -1,19 +1,19 @@
 <?php declare(strict_types=1);
 /**
- * PrivateBin
+ * CipherVault
  *
  * a zero-knowledge paste bin
  *
- * @link      https://github.com/PrivateBin/PrivateBin
+ * @link      https://github.com/CipherVault/CipherVault
  * @copyright 2022 Felix J. Ogris (https://ogris.de/)
  * @license   https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License
  *
- * an S3 compatible data backend for PrivateBin with CEPH/RadosGW in mind
+ * an S3 compatible data backend for CipherVault with CEPH/RadosGW in mind
  * see https://docs.ceph.com/en/latest/radosgw/s3/php/
  *
  * Installation:
  *   1. Make sure you have composer.lock and composer.json in the document root of your PasteBin
- *   2. If not, grab a copy from https://github.com/PrivateBin/PrivateBin
+ *   2. If not, grab a copy from https://github.com/CipherVault/CipherVault
  *   3. As non-root user, install the AWS SDK for PHP:
  *      composer require aws/aws-sdk-php
  *      (On FreeBSD, install devel/php-composer2 prior, e.g.: make -C /usr/ports/devel/php-composer2 install clean)
@@ -28,17 +28,17 @@
  *      endpoint = "https://s3.my-ceph.invalid"
  *      use_path_style_endpoint = true
  *      bucket = "my-bucket"
- *      prefix = "privatebin"  (place all PrivateBin data beneath this prefix)
+ *      prefix = "CipherVault"  (place all CipherVault data beneath this prefix)
  *      accesskey = "my-rados-user"
  *      secretkey = "my-rados-pass"
  */
 
-namespace PrivateBin\Data;
+namespace CipherVault\Data;
 
 use Aws\S3\Exception\S3Exception;
 use Aws\S3\S3Client;
 use JsonException;
-use PrivateBin\Json;
+use CipherVault\Json;
 
 class S3Storage extends AbstractData
 {
@@ -67,7 +67,7 @@ class S3Storage extends AbstractData
     private $_bucket = null;
 
     /**
-     * S3 prefix for all PrivateBin data in this bucket
+     * S3 prefix for all CipherVault data in this bucket
      *
      * @access private
      * @var    string
@@ -471,3 +471,4 @@ class S3Storage extends AbstractData
         return $pastes;
     }
 }
+

@@ -1,13 +1,13 @@
 'use strict';
 /**
- * PrivateBin
+ * CipherVault
  *
  * a zero-knowledge paste bin
  *
- * @see       {@link https://github.com/PrivateBin/PrivateBin}
+ * @see       {@link https://github.com/CipherVault/CipherVault}
  * @copyright 2012 Sébastien SAUVAGE ({@link http://sebsauvage.net})
  * @license   {@link https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License}
- * @name      PrivateBin
+ * @name      CipherVault
  * @namespace
  */
 
@@ -40,7 +40,7 @@ function draghover(element) {
     });
 }
 
-window.PrivateBin = (function () {
+window.CipherVault = (function () {
 
     /**
      * zlib library interface
@@ -918,7 +918,7 @@ window.PrivateBin = (function () {
             }
 
             // load strings from JSON
-            const scriptTag = document.querySelector('script[src^="js/privatebin.js"]');
+            const scriptTag = document.querySelector('script[src^="js/CipherVault.js"]');
             const cacheBreaker = scriptTag ? (scriptTag.getAttribute('src').split('.js')[1] || '') : '';
             fetch('i18n/' + newLanguage + '.json' + cacheBreaker)
                 .then(response => {
@@ -1611,7 +1611,7 @@ window.PrivateBin = (function () {
         /**
          * reload the page
          *
-         * This takes the user to the PrivateBin homepage.
+         * This takes the user to the CipherVault homepage.
          *
          * @name   UiHelper.reloadHome
          * @function
@@ -5833,7 +5833,7 @@ window.PrivateBin = (function () {
     })();
 
     /**
-     * (controller) main PrivateBin logic
+     * (controller) main CipherVault logic
      *
      * @name   Controller
      * @param  {object} window
@@ -6151,8 +6151,9 @@ window.PrivateBin = (function () {
 if (typeof module === 'undefined' || !module.exports) {
     window.addEventListener('DOMContentLoaded', function () {
         // run main controller
-        window.PrivateBin.Controller.init();
+        window.CipherVault.Controller.init();
     });
 }
+
 
 

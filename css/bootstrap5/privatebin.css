@@ -1,9 +1,9 @@
 /**
- * PrivateBin
+ * CipherVault
  *
  * Cascading style sheets for bootstrap 5 template.
  *
- * @link      https://github.com/PrivateBin/PrivateBin
+ * @link      https://github.com/CipherVault/CipherVault
  * @copyright 2012 Sébastien SAUVAGE (sebsauvage.net)
  * @license   https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License
  */
@@ -60,3 +60,4 @@ html[dir="rtl"] #deletelink, html[dir="rtl"] #qrcodemodalClose {
 #sendbutton svg {
 	transform: translateY(1.5px);
 }
+

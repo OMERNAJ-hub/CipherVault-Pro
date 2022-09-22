@@ -1,7 +1,7 @@
 {
-    "PrivateBin": "PrivateBin",
+    "CipherVault": "CipherVault",
     "%s is a minimalist, open source online pastebin where the server has zero knowledge of stored data. Data is encrypted/decrypted %sin the browser%s using 256 bits AES.": "%s je minimalistický, open source online pastebin, kde server nemá žiadne znalosti o vložených údajoch. Údaje sú šifrované/dešifrované %sv prehliadači%s pomocou 256-bitového AES.",
-    "More information on the <a href=\"https://privatebin.info/\">project page</a>.": "Viac informácií na <a href=\"https://privatebin.info/\">stránke projektu</a>.",
+    "More information on the <a href=\"https://CipherVault.info/\">project page</a>.": "Viac informácií na <a href=\"https://CipherVault.info/\">stránke projektu</a>.",
     "Because ignorance is bliss": "Pretože nevedomosť je sladká",
     "Document does not exist, has expired or has been deleted.": "Vložený text neexistuje, jeho platnosť vypršala alebo bol vymazaný.",
     "%s requires php %s or above to work. Sorry.": "%s vyžaduje php %s alebo vyššie. Prepáčte.",
@@ -236,3 +236,4 @@
     "Cmd": "Cmd",
     "Ctrl": "Ctrl"
 }
+

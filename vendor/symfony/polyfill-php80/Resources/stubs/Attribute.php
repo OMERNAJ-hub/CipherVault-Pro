@@ -29,3 +29,4 @@ final class Attribute
         $this->flags = $flags;
     }
 }
+

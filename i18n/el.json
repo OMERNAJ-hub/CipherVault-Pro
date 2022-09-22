@@ -1,7 +1,7 @@
 {
-    "PrivateBin": "PrivateBin",
+    "CipherVault": "CipherVault",
     "%s is a minimalist, open source online pastebin where the server has zero knowledge of stored data. Data is encrypted/decrypted %sin the browser%s using 256 bits AES.": "Το %s αποτελεί ένα εργαλείο επικόλλησης δεδομένων στο διαδίκτυο, που βασίζεται σε λογισμικό ανοιχτού κώδικα. Ο διακομιστής έχει πλήρη άγνοια αυτών των δεδομένων, τα οποία από/κρυπτογραφούνται %sστο πρόγραμμα περιήγησης%s, χρησιμοποιώντας τη μέθοδο 256-bits AES.",
-    "More information on the <a href=\"https://privatebin.info/\">project page</a>.": "Περισσότερες πληροφορίες στον <a href=\"https://privatebin.info/\">ιστότοπο του εργαλείου</a>.",
+    "More information on the <a href=\"https://CipherVault.info/\">project page</a>.": "Περισσότερες πληροφορίες στον <a href=\"https://CipherVault.info/\">ιστότοπο του εργαλείου</a>.",
     "Because ignorance is bliss": "Επειδή η άγνοια είναι ευτυχία",
     "Document does not exist, has expired or has been deleted.": "Η επικόλληση δεν υπάρχει, έληξε ή διαγράφηκε",
     "%s requires php %s or above to work. Sorry.": "%s απαιτεί php %s ή νεότερη για να λειτουργήσει. Συγγνώμη.",
@@ -236,3 +236,4 @@
     "Cmd": "Cmd",
     "Ctrl": "Ctrl"
 }
+

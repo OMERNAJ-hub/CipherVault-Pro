@@ -371,3 +371,4 @@ class Subnet extends AbstractRange
         return BinaryMath::getInstance()->pow2string($maxPrefix - $prefix);
     }
 }
+

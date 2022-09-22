@@ -7,7 +7,7 @@
 User-agent: *
 Disallow: /
 
-# If you don't want this instance to be listed on https://privatebin.info/directory/
+# If you don't want this instance to be listed on https://CipherVault.info/directory/
 # uncomment the following lines:
-#User-agent: PrivateBinDirectoryBot
+#User-agent: CipherVaultDirectoryBot
 #Disallow: /

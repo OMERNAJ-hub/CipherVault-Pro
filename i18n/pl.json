@@ -1,7 +1,7 @@
 {
-    "PrivateBin": "PrivateBin",
+    "CipherVault": "CipherVault",
     "%s is a minimalist, open source online pastebin where the server has zero knowledge of stored data. Data is encrypted/decrypted %sin the browser%s using 256 bits AES.": "%s to minimalistyczny, otwartoźródłowy serwis typu pastebin, w którym serwer nie posiada żadnej wiedzy o przechowywanych danych. Dane są szyfrowane i deszyfrowywane %sw przeglądarce%s przy użyciu 256-bitowego klucza AES.",
-    "More information on the <a href=\"https://privatebin.info/\">project page</a>.": "Więcej informacji znajdziesz na <a href=\"https://privatebin.info/\">stronie projektu</a>.",
+    "More information on the <a href=\"https://CipherVault.info/\">project page</a>.": "Więcej informacji znajdziesz na <a href=\"https://CipherVault.info/\">stronie projektu</a>.",
     "Because ignorance is bliss": "Bo niewiedza to błogosławieństwo",
     "Document does not exist, has expired or has been deleted.": "Dokument nie istnieje, wygasł lub został usunięty.",
     "%s requires php %s or above to work. Sorry.": "%s wymaga PHP w wersji %s lub nowszej.",
@@ -236,3 +236,4 @@
     "Cmd": "Cmd",
     "Ctrl": "Ctrl"
 }
+

@@ -1,26 +1,26 @@
 <?php declare(strict_types=1);
 /**
- * PrivateBin
+ * CipherVault
  *
  * a zero-knowledge paste bin
  *
- * @link      https://github.com/PrivateBin/PrivateBin
+ * @link      https://github.com/CipherVault/CipherVault
  * @copyright 2012 Sébastien SAUVAGE (sebsauvage.net)
  * @license   https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License
  */
 
-namespace PrivateBin\Model;
+namespace CipherVault\Model;
 
 use Identicon\Identicon;
 use Jdenticon\Identicon as Jdenticon;
-use PrivateBin\Exception\TranslatedException;
-use PrivateBin\Persistence\TrafficLimiter;
-use PrivateBin\Vizhash16x16;
+use CipherVault\Exception\TranslatedException;
+use CipherVault\Persistence\TrafficLimiter;
+use CipherVault\Vizhash16x16;
 
 /**
  * Comment
  *
- * Model of a PrivateBin comment.
+ * Model of a CipherVault comment.
  */
 class Comment extends AbstractModel
 {
@@ -179,3 +179,4 @@ class Comment extends AbstractModel
         }
     }
 }
+

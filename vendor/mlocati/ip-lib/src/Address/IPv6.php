@@ -677,3 +677,4 @@ class IPv6 implements AddressInterface
         return static::fromWords($sum);
     }
 }
+

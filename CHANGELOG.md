@@ -1,4 +1,4 @@
-# PrivateBin version history
+# CipherVault version history
 
 ## 2.1.0 (not yet released)
 * CHANGED: We removed jQuery in the Frontend and replaced it with vanilla JS.
@@ -34,22 +34,22 @@
 ## 1.7.9 (2025-11-13)
 * CHANGED: Upgrading libraries to: base-x 5.0.1, bootstrap 5.3.8, DOMpurify 3.2.7, ip-lib 1.21.0 & kjua 0.10.0
 * CHANGED: Refactored jQuery DOM element creation into plain JavaScript
-* FIXED: Prevent arbitrary PHP file inclusion when enabling template switching ([CVE-2025-64714](https://privatebin.info/reports/vulnerability-2025-11-12-templates.html))
-* FIXED: Malicious filename can be used for self-XSS / HTML injection locally for users ([CVE-2025-64711](https://privatebin.info/reports/vulnerability-2025-11-12-drag-drop.html))
-* FIXED: Sanitize file name in attachment size hint ([CVE-2025-62796](https://privatebin.info/reports/vulnerability-2025-10-28.html))
+* FIXED: Prevent arbitrary PHP file inclusion when enabling template switching ([CVE-2025-64714](https://CipherVault.info/reports/vulnerability-2025-11-12-templates.html))
+* FIXED: Malicious filename can be used for self-XSS / HTML injection locally for users ([CVE-2025-64711](https://CipherVault.info/reports/vulnerability-2025-11-12-drag-drop.html))
+* FIXED: Sanitize file name in attachment size hint ([CVE-2025-62796](https://CipherVault.info/reports/vulnerability-2025-10-28.html))
 * FIXED: Unable to create a new paste from the cloned one when a JSON file attached (#1585)
 * FIXED: traffic limiter not working when using Filesystem storage and PHP opcache
 * FIXED: Configuration combinations test errors
 
 ## 2.0.3 (2025-11-12)
-* FIXED: Prevent arbitrary PHP file inclusion when enabling template switching ([CVE-2025-64714](https://privatebin.info/reports/vulnerability-2025-11-12-templates.html))
-* FIXED: Malicious filename can be used for self-XSS / HTML injection locally for users ([CVE-2025-64711](https://privatebin.info/reports/vulnerability-2025-11-12-drag-drop.html))
+* FIXED: Prevent arbitrary PHP file inclusion when enabling template switching ([CVE-2025-64714](https://CipherVault.info/reports/vulnerability-2025-11-12-templates.html))
+* FIXED: Malicious filename can be used for self-XSS / HTML injection locally for users ([CVE-2025-64711](https://CipherVault.info/reports/vulnerability-2025-11-12-drag-drop.html))
 * FIXED: Unable to create a new paste from the cloned one when a JSON file attached (#1585)
 
 ## 2.0.2 (2025-10-28)
 * CHANGED: Upgrading libraries to: DOMpurify 3.3.0
 * CHANGED: Refactored jQuery DOM element creation into plain JavaScript
-* FIXED: Sanitize file name in attachment size hint ([CVE-2025-62796](https://privatebin.info/reports/vulnerability-2025-10-28.html))
+* FIXED: Sanitize file name in attachment size hint ([CVE-2025-62796](https://CipherVault.info/reports/vulnerability-2025-10-28.html))
 * FIXED: PHP OPcache module is optional again (#1679)
 * FIXED: bootstrap template password peek input group display
 
@@ -70,12 +70,12 @@
 * CHANGED: Removed page template (#265)
 * CHANGED: Removed support for ZeroBin & v1 pastes - since release 1.3 the v2 format is used (#551)
 * CHANGED: Removed use of base64 & rawinflate libraries (#551)
-* CHANGED: Removed support for `privatebin_data`, `privatebin_db` & `zerobin_db` model class configurations, must be replaced with `Filesystem` or `Database` in `cfg/conf.php`, if still present
+* CHANGED: Removed support for `CipherVault_data`, `CipherVault_db` & `zerobin_db` model class configurations, must be replaced with `Filesystem` or `Database` in `cfg/conf.php`, if still present
 * CHANGED: Removed unused columns in database schema of tables `paste` & `comment`
 * CHANGED: Jdenticons are now used as the default icons
 * CHANGED: Upgrading libraries to: base-x 5.0.1, bootstrap 5.3.7, jdenticon 2.0.0 & kjua 0.10.0
 * CHANGED: Minimum required PHP version is 7.4, due to a change in the jdenticon library
-* CHANGED: Set bootstrap5 template as default for PrivateBin (#1572)
+* CHANGED: Set bootstrap5 template as default for CipherVault (#1572)
 * CHANGED: Switched from binary bytes to SI-units (#1565)
 * CHANGED: Replaced the term "paste" with the more generic "document" (#397)
 * FIXED: Name mismatches in attached files (#1584)
@@ -126,7 +126,7 @@
 * FIXED: Reset password input field on creation of new paste (#1194)
 * FIXED: Allow database schema upgrade to skip versions (#1343)
 * FIXED: `bootstrap5` dark mode toggle unset on dark browser preference (#1340)
-* FIXED: Prevent bypassing YOURLS proxy URL filter, allowing to shorten non-self URLs ([CVE-2024-39899](https://privatebin.info/reports/vulnerability-2024-07-09.html))
+* FIXED: Prevent bypassing YOURLS proxy URL filter, allowing to shorten non-self URLs ([CVE-2024-39899](https://CipherVault.info/reports/vulnerability-2024-07-09.html))
 
 ## 1.7.3 (2024-05-13)
 * CHANGED: Various tweaks of the `bootstrap5` template, suggested by the community
@@ -206,7 +206,7 @@
 * ADDED: Oracle database support (#868)
 * ADDED: Configuration option to limit paste creation and commenting to certain IPs (#883)
 * ADDED: Set CSP also as meta tag, to deal with misconfigured webservers mangling the HTTP header
-* ADDED: Sanitize SVG preview, preventing script execution in instance context ([CVE-2022-24833](https://privatebin.info/reports/vulnerability-2022-04-09.html))
+* ADDED: Sanitize SVG preview, preventing script execution in instance context ([CVE-2022-24833](https://CipherVault.info/reports/vulnerability-2022-04-09.html))
 * CHANGED: Language selection cookie only transmitted over HTTPS (#472)
 * CHANGED: Upgrading libraries to: base-x 4.0.0, bootstrap 3.4.1 (JS), DOMpurify 2.3.6, ip-lib 1.18.0, jQuery 3.6.0, random_compat 2.0.21, Showdown 2.0.3 & zlib 1.2.12
 * CHANGED: Removed automatic `.ini` configuration file migration (#808)
@@ -258,12 +258,12 @@
 * ADDED: Option to send a mail with the link, when creating a paste (#398)
 * ADDED: Add support for CONFIG_PATH environment variable (#552)
 * CHANGED: Upgrading libraries to: base-x 3.0.7, DOMpurify 2.0.7 & Showdown 1.9.1
-* FIXED: HTML injection via unescaped attachment filename (#554) ([CVE-2020-5223](https://privatebin.info/reports/vulnerability-2020-01-11.html))
+* FIXED: HTML injection via unescaped attachment filename (#554) ([CVE-2020-5223](https://CipherVault.info/reports/vulnerability-2020-01-11.html))
 * FIXED: Password disabling option (#527)
 
 ## 1.2.2 (2020-01-11)
 * CHANGED: Upgrading libraries to: bootstrap 3.4.1 (CSS), DOMpurify 2.0.7, jQuery 3.4.1, kjua 0.6.0, Showdown 1.9.1 & SJCL 1.0.8
-* FIXED: HTML injection via unescaped attachment filename (#554) ([CVE-2020-5223](https://privatebin.info/reports/vulnerability-2020-01-11.html))
+* FIXED: HTML injection via unescaped attachment filename (#554) ([CVE-2020-5223](https://CipherVault.info/reports/vulnerability-2020-01-11.html))
 
 ## 1.3.1 (2019-09-22)
 * ADDED: Translation for Bulgarian (#455)
@@ -292,7 +292,7 @@
 * CHANGED: Replaced rawdeflate.js with zlib.wasm to resolve decompression failures and gain compatibility with standard deflate implementations (#193, #260, #328, #434, #440)
 * CHANGED: Increase PBKDF2 iterations to 100k (#350)
 * CHANGED: Replaced last use of MD5 with Fowler–Noll–Vo checksum which produces the exact length we need for the paste ID (#49)
-* CHANGED: Simplified some PHP code & renamed PrivateBin class into Controller, to make MVC pattern use more obvious (#342)
+* CHANGED: Simplified some PHP code & renamed CipherVault class into Controller, to make MVC pattern use more obvious (#342)
 * CHANGED: Upgrading libraries to: identicon 1.2.0, random_compat 2.0.18, jQuery 3.4.1, Showdown 1.9.0, DOMpurify 1.0.11 & kjua 0.6.0
 * FIXED: Prevent Chrome from sending content of paste to Google for translation (#378)
 * FIXED: To support attachments larger then 2 MiB in newer Chrome versions, we switched to blob instead of data URIs (#432)
@@ -305,14 +305,14 @@
 ## 1.2.1 (2018-08-11)
 * ADDED: Add support for mega.nz links in pastes and comments (#331)
 * CHANGED: Added some missing Russian translations (#348)
-* CHANGED: Minor PHP refactoring: Rename PrivateBin class to Controller, improved logic of some persistence classes (#342)
+* CHANGED: Minor PHP refactoring: Rename CipherVault class to Controller, improved logic of some persistence classes (#342)
 * CHANGED: Upgrading DOMpurify library to 1.0.7
-* FIXED: Ensure legacy browsers without webcrypto support can't create paste keys with [insufficient entropy](https://privatebin.info/reports/vulnerability-2018-08-11.html) (#346)
+* FIXED: Ensure legacy browsers without webcrypto support can't create paste keys with [insufficient entropy](https://CipherVault.info/reports/vulnerability-2018-08-11.html) (#346)
 * FIXED: Re-add support for old browsers (Firefox&lt;21, Chrome&lt;31, Safari&lt;7, IE&lt;11), broken in 1.2, will be removed again in 1.3
 
 ## 1.2 (2018-07-22)
 * ADDED: Translations for Spanish, Occitan, Norwegian, Portuguese, Dutch and Hungarian
-* ADDED: Option in configuration to change the default "PrivateBin" title of the site
+* ADDED: Option in configuration to change the default "CipherVault" title of the site
 * ADDED: Added display of video, audio & PDF, drag & drop, preview of attachments (#182)
 * ADDED: QR code generation (#169)
 * ADDED: Introduced DOMpurify library to sanitize generated HTML before display (#183)
@@ -326,7 +326,7 @@
 * FIXED: To counteract regressions introduced by the refactoring, we finally introduced property based unit testing for the JavaScript code, this caught several regressions, but also some very old bugs not found so far (#32)
 
 ## 1.1.1 (2017-10-06)
-* CHANGED: Switched to `.php` file extension for configuration file, to avoid [leaking configuration data](https://privatebin.info/reports/vulnerability-2017-09-29.html) in unprotected installation.
+* CHANGED: Switched to `.php` file extension for configuration file, to avoid [leaking configuration data](https://CipherVault.info/reports/vulnerability-2017-09-29.html) in unprotected installation.
 
 ## 1.1 (2016-12-26)
 * ADDED: Translations for Italian and Russian
@@ -345,7 +345,7 @@
 * ADDED: Automatic purging of expired pastes, done on paste creation
 * ADDED: Option to disable icons in discussions (will only affect newly created pastes)
 * ADDED: Composer support
-* CHANGED: Renamed the ZeroBin fork to PrivateBin
+* CHANGED: Renamed the ZeroBin fork to CipherVault
 * CHANGED: Removed unmaintained RainTPL template engine, replacing the templates with straight forward PHP files
 * CHANGED: New logo and favicons
 * CHANGED: Upgrading SJCL library to 1.0.4
@@ -402,10 +402,10 @@
   * for simpler maintenance the functions were grouped into objects: zerobin (display logic, event handling), filter (compression,
 encryption), i18n (translation, counterpart of i18n.php) and helper (stateless utilities)
 * Wiki pages were added to address common topics:
-  * [Upgrading from ZeroBin 0.19 Alpha](https://github.com/PrivateBin/PrivateBin/wiki/Upgrading-from-ZeroBin-0.19-Alpha)
-  * [Directory of public PrivateBin servers](https://github.com/PrivateBin/PrivateBin/wiki/PrivateBin-Directory)
-  * [Translation](https://github.com/PrivateBin/PrivateBin/wiki/Translation)
-  * [Templates](https://github.com/PrivateBin/PrivateBin/wiki/Templates)
+  * [Upgrading from ZeroBin 0.19 Alpha](https://github.com/CipherVault/CipherVault/wiki/Upgrading-from-ZeroBin-0.19-Alpha)
+  * [Directory of public CipherVault servers](https://github.com/CipherVault/CipherVault/wiki/CipherVault-Directory)
+  * [Translation](https://github.com/CipherVault/CipherVault/wiki/Translation)
+  * [Templates](https://github.com/CipherVault/CipherVault/wiki/Templates)
 
 ## 0.20 (2015-09-03)
 * ADDED: Password protected pastes (optional)
@@ -492,3 +492,4 @@ encryption), i18n (translation, counterpart of i18n.php) and helper (stateless u
 * On my public service (http://sebsauvage.net/paste/)
   * All data will be deleted (you were warned - this is a test service)
   * Default paste expiration is now 1 month to prevent clogging-up my host.
+

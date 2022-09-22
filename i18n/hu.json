@@ -1,7 +1,7 @@
 {
-    "PrivateBin": "PrivateBin",
+    "CipherVault": "CipherVault",
     "%s is a minimalist, open source online pastebin where the server has zero knowledge of stored data. Data is encrypted/decrypted %sin the browser%s using 256 bits AES.": "A %s minimalista, nyílt forráskódú adattároló szoftver, ahol a szerver semmilyen információt nem tárol a rábízott adatról. Azt ugyanis a %sböngésződ%s segítségével titkosítja és oldja fel 256 bit hosszú titkosítási kulcsú AES-t használva.",
-    "More information on the <a href=\"https://privatebin.info/\">project page</a>.": "További információt a <a href=\"https://privatebin.info/\">projekt oldalán</a> találsz.",
+    "More information on the <a href=\"https://CipherVault.info/\">project page</a>.": "További információt a <a href=\"https://CipherVault.info/\">projekt oldalán</a> találsz.",
     "Because ignorance is bliss": "A titok egyfajta hatalom.",
     "Document does not exist, has expired or has been deleted.": "A bejegyzés nem létezik, lejárt vagy törölve lett.",
     "%s requires php %s or above to work. Sorry.": "Sajnáljuk, de a %s működéséhez %s vagy ezt meghaladó verziójú php-s környezet szükséges.",
@@ -236,3 +236,4 @@
     "Cmd": "Cmd",
     "Ctrl": "Ctrl"
 }
+

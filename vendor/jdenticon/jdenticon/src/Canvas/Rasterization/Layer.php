@@ -35,3 +35,4 @@ class Layer
         $this->windingRule = $windingRule;
     }
 }
+

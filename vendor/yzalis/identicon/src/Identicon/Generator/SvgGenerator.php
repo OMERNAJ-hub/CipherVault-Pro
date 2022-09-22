@@ -89,3 +89,4 @@ class SvgGenerator extends BaseGenerator implements GeneratorInterface
         return $color;
     }
 }
+

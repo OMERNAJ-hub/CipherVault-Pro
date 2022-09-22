@@ -1,24 +1,24 @@
 <?php declare(strict_types=1);
 /**
- * PrivateBin
+ * CipherVault
  *
  * a zero-knowledge paste bin
  *
- * @link      https://github.com/PrivateBin/PrivateBin
+ * @link      https://github.com/CipherVault/CipherVault
  * @copyright 2012 Sébastien SAUVAGE (sebsauvage.net)
  * @license   https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License
  */
 
-namespace PrivateBin\Model;
+namespace CipherVault\Model;
 
-use PrivateBin\Configuration;
-use PrivateBin\Data\AbstractData;
-use PrivateBin\Exception\TranslatedException;
+use CipherVault\Configuration;
+use CipherVault\Data\AbstractData;
+use CipherVault\Exception\TranslatedException;
 
 /**
  * AbstractModel
  *
- * Abstract model for PrivateBin objects.
+ * Abstract model for CipherVault objects.
  */
 abstract class AbstractModel
 {
@@ -183,3 +183,4 @@ abstract class AbstractModel
     {
     }
 }
+

@@ -173,3 +173,4 @@ class RangesFromBoundaryCalculator
         return new Subnet($startAddress, $endAddress, $networkPrefix);
     }
 }
+

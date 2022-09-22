@@ -1,18 +1,18 @@
 <?php declare(strict_types=1);
 /**
- * PrivateBin
+ * CipherVault
  *
  * a zero-knowledge paste bin
  *
- * @link      https://github.com/PrivateBin/PrivateBin
+ * @link      https://github.com/CipherVault/CipherVault
  * @copyright 2012 Sébastien SAUVAGE (sebsauvage.net)
  * @license   https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License
  */
 
-namespace PrivateBin\Exception;
+namespace CipherVault\Exception;
 
 use Exception;
-use PrivateBin\I18n;
+use CipherVault\I18n;
 
 /**
  * TranslatedException
@@ -30,7 +30,8 @@ class TranslatedException extends Exception
      */
     public function __construct($messageId, int $code = 0)
     {
-        $message = is_string($messageId) ? I18n::translate($messageId) : forward_static_call_array('PrivateBin\I18n::translate', $messageId);
+        $message = is_string($messageId) ? I18n::translate($messageId) : forward_static_call_array('CipherVault\I18n::translate', $messageId);
         parent::__construct($message, $code);
     }
 }
+

@@ -1,7 +1,7 @@
 {
-    "PrivateBin": "PrivateBin",
+    "CipherVault": "CipherVault",
     "%s is a minimalist, open source online pastebin where the server has zero knowledge of stored data. Data is encrypted/decrypted %sin the browser%s using 256 bits AES.": "%s е изчистен и изцяло достъпен като отворен код, онлайн \"document\" услуга, където сървъра не знае подадената информация. Тя се шифрова/дешифрова %sвъв браузъра%s използвайки 256 битов AES алгоритъм.",
-    "More information on the <a href=\"https://privatebin.info/\">project page</a>.": "Повече информация може да намерите на <a href=\"https://privatebin.info/\">страницата на проекта (Английски)</a>.",
+    "More information on the <a href=\"https://CipherVault.info/\">project page</a>.": "Повече информация може да намерите на <a href=\"https://CipherVault.info/\">страницата на проекта (Английски)</a>.",
     "Because ignorance is bliss": "Невежеството е блаженство",
     "Document does not exist, has expired or has been deleted.": "Информацията не съществува, срокът и е изтекъл или е била изтрита.",
     "%s requires php %s or above to work. Sorry.": "%s има нужда от PHP %s или по-нова, за да работи. Съжалявам.",
@@ -236,3 +236,4 @@
     "Cmd": "Cmd",
     "Ctrl": "Ctrl"
 }
+

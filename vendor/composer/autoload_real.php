@@ -48,3 +48,4 @@ class ComposerAutoloaderInitDontChange
         return $loader;
     }
 }
+

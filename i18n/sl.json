@@ -1,7 +1,7 @@
 {
-    "PrivateBin": "PrivateBin",
+    "CipherVault": "CipherVault",
     "%s is a minimalist, open source online pastebin where the server has zero knowledge of stored data. Data is encrypted/decrypted %sin the browser%s using 256 bits AES.": "%s je minimalističen, odprtokodni spletni 'pastebin', kjer strežnik ne ve ničesar o prilepljenih podatkih. Podatki so šifrirani/dešifrirani %sv brskalniku%s z uporabo 256 bitnega AES.",
-    "More information on the <a href=\"https://privatebin.info/\">project page</a>.": "Več informacij na <a href=\"https://privatebin.info/\">spletni strani projekta.</a>.",
+    "More information on the <a href=\"https://CipherVault.info/\">project page</a>.": "Več informacij na <a href=\"https://CipherVault.info/\">spletni strani projekta.</a>.",
     "Because ignorance is bliss": "Ker kar ne veš ne boli.",
     "Document does not exist, has expired or has been deleted.": "Prilepek ne obstaja, mu je potekla življenjska doba, ali pa je izbrisan.",
     "%s requires php %s or above to work. Sorry.": "Oprosti, %s za delovanje potrebuje vsaj php %s.",
@@ -236,3 +236,4 @@
     "Cmd": "Cmd",
     "Ctrl": "Ctrl"
 }
+

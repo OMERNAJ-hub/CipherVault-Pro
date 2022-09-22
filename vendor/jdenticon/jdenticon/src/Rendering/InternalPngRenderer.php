@@ -123,3 +123,4 @@ class InternalPngRenderer extends AbstractRenderer
         return $this->canvas->toPng(['Software' => 'Jdenticon']);
     }
 }
+

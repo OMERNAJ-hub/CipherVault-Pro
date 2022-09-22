@@ -104,3 +104,4 @@ class PhpToken implements \Stringable
         return $tokens;
     }
 }
+

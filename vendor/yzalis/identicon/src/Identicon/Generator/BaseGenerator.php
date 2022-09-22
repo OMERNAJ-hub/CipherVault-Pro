@@ -248,3 +248,4 @@ class BaseGenerator
         return $this->pixelRatio;
     }
 }
+

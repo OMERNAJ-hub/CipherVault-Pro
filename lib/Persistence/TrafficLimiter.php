@@ -1,21 +1,21 @@
 <?php declare(strict_types=1);
 
 /**
- * PrivateBin
+ * CipherVault
  *
  * a zero-knowledge paste bin
  *
- * @link      https://github.com/PrivateBin/PrivateBin
+ * @link      https://github.com/CipherVault/CipherVault
  * @copyright 2012 Sébastien SAUVAGE (sebsauvage.net)
  * @license   https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License
  */
 
-namespace PrivateBin\Persistence;
+namespace CipherVault\Persistence;
 
 use IPLib\Factory;
 use IPLib\ParseStringFlag;
-use PrivateBin\Configuration;
-use PrivateBin\Exception\TranslatedException;
+use CipherVault\Configuration;
+use CipherVault\Exception\TranslatedException;
 
 /**
  * TrafficLimiter
@@ -215,3 +215,4 @@ class TrafficLimiter extends AbstractPersistence
         ]);
     }
 }
+

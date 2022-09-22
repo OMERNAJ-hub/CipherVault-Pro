@@ -1,9 +1,9 @@
 /**
- * PrivateBin
+ * CipherVault
  *
  * Cascading style sheet only loaded when JavaScript is not available.
  *
- * @link      https://github.com/PrivateBin/PrivateBin
+ * @link      https://github.com/CipherVault/CipherVault
  * @copyright 2012 Sébastien SAUVAGE (sebsauvage.net)
  * @license   https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License
  */
@@ -11,3 +11,4 @@
 .noscript-hide {
 	display: none;
 }
+

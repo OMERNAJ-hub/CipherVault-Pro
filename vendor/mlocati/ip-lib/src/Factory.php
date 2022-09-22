@@ -340,3 +340,4 @@ class Factory
         return $result;
     }
 }
+

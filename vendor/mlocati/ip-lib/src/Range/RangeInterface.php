@@ -196,3 +196,4 @@ interface RangeInterface
      */
     public function split($networkPrefix, $forceSubnet = false);
 }
+

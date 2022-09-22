@@ -58,3 +58,4 @@ class Shape
         $this->startRotationIndex = $startRotationIndex;
     }
 }
+

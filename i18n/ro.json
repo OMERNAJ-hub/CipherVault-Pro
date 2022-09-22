@@ -1,7 +1,7 @@
 {
-    "PrivateBin": "PrivateBin",
+    "CipherVault": "CipherVault",
     "%s is a minimalist, open source online pastebin where the server has zero knowledge of stored data. Data is encrypted/decrypted %sin the browser%s using 256 bits AES.": "%s este un pastebin online, minimalist și cu sursă deschisă unde serverul are zero acces la datele introduse. Datele sunt criptate/decriptate %sîn browser%s folosind AES cu 256 de biți.",
-    "More information on the <a href=\"https://privatebin.info/\">project page</a>.": "Mai multe informații pe <a href=\"https://privatebin.info/\">pagina proiectului</a>.",
+    "More information on the <a href=\"https://CipherVault.info/\">project page</a>.": "Mai multe informații pe <a href=\"https://CipherVault.info/\">pagina proiectului</a>.",
     "Because ignorance is bliss": "Ignoranța este o binecuvântare",
     "Document does not exist, has expired or has been deleted.": "Document-ul nu există, a expirat sau a fost șters.",
     "%s requires php %s or above to work. Sorry.": "%s necesită php %s sau mai nou pentru a funcționa. Scuze.",
@@ -236,3 +236,4 @@
     "Cmd": "Cmd",
     "Ctrl": "Ctrl"
 }
+

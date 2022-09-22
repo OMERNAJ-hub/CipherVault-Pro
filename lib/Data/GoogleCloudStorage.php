@@ -1,22 +1,22 @@
 <?php declare(strict_types=1);
 /**
- * PrivateBin
+ * CipherVault
  *
  * a zero-knowledge paste bin
  *
- * @link      https://github.com/PrivateBin/PrivateBin
+ * @link      https://github.com/CipherVault/CipherVault
  * @copyright 2012 Sébastien SAUVAGE (sebsauvage.net)
  * @license   https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License
  */
 
-namespace PrivateBin\Data;
+namespace CipherVault\Data;
 
 use Exception;
 use Google\Cloud\Core\Exception\NotFoundException;
 use Google\Cloud\Storage\Bucket;
 use Google\Cloud\Storage\StorageClient;
 use JsonException;
-use PrivateBin\Json;
+use CipherVault\Json;
 
 class GoogleCloudStorage extends AbstractData
 {
@@ -60,8 +60,8 @@ class GoogleCloudStorage extends AbstractData
      */
     public function __construct(array $options)
     {
-        if (getenv('PRIVATEBIN_GCS_BUCKET')) {
-            $bucket = getenv('PRIVATEBIN_GCS_BUCKET');
+        if (getenv('CipherVault_GCS_BUCKET')) {
+            $bucket = getenv('CipherVault_GCS_BUCKET');
         }
         if (array_key_exists('bucket', $options)) {
             $bucket = $options['bucket'];
@@ -381,3 +381,4 @@ class GoogleCloudStorage extends AbstractData
         return $pastes;
     }
 }
+

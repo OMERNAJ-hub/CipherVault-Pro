@@ -11,3 +11,4 @@ php_value upload_max_size 10M
 php_value upload_max_filesize 10M
 php_value max_file_uploads 100
 </IfModule>
+

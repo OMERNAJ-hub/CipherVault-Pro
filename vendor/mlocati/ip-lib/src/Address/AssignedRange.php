@@ -138,3 +138,4 @@ class AssignedRange
         return $result;
     }
 }
+

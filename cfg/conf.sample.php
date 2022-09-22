@@ -1,16 +1,16 @@
 ;<?php http_response_code(403); /*
-; config file for PrivateBin
+; config file for CipherVault
 ;
-; An explanation of each setting can be find online at https://github.com/PrivateBin/PrivateBin/wiki/Configuration.
+; An explanation of each setting can be find online at https://github.com/CipherVault/CipherVault/wiki/Configuration.
 
 [main]
 ; (optional) set a project name to be displayed on the website
-; name = "PrivateBin"
+; name = "CipherVault"
 
 ; The full URL, with the domain name and directories that point to the
-; PrivateBin files, including an ending slash (/). This URL is essential to
+; CipherVault files, including an ending slash (/). This URL is essential to
 ; allow Opengraph images to be displayed on social networks.
-; basepath = "https://privatebin.example.com/"
+; basepath = "https://CipherVault.example.com/"
 
 ; enable or disable the discussion feature, defaults to true
 discussion = true
@@ -42,7 +42,7 @@ defaultformatter = "plaintext"
 ; size limit per document or comment in bytes, defaults to 10 Megabytes
 sizelimit = 10000000
 
-; by default PrivateBin use "bootstrap5" template (tpl/bootstrap5.php).
+; by default CipherVault use "bootstrap5" template (tpl/bootstrap5.php).
 ; Optionally you can enable the template selection menu, which uses
 ; a session cookie to store the choice until the browser is closed.
 templateselection = false
@@ -52,17 +52,17 @@ availabletemplates[] = "bootstrap5"
 
 ; set the template your installs defaults to, defaults to "bootstrap5" (tpl/bootstrap5.php)
 ; previews at:
-; https://privatebin.info/screenshots.html
+; https://CipherVault.info/screenshots.html
 ; template = "bootstrap5"
 
 ; (optional) info text to display
 ; use single, instead of double quotes for HTML attributes
-;info = "More information on the <a href='https://privatebin.info/'>project page</a>."
+;info = "More information on the <a href='https://CipherVault.info/'>project page</a>."
 
 ; (optional) notice to display
 ; notice = "Note: This is a test service: Data may be deleted anytime. Kittens will die if you abuse this service."
 
-; by default PrivateBin will guess the visitors language based on the browsers
+; by default CipherVault will guess the visitors language based on the browsers
 ; settings. Optionally you can enable the language selection menu, which uses
 ; a session cookie to store the choice until the browser is closed.
 languageselection = false
@@ -105,7 +105,7 @@ languageselection = false
 ; Notes:
 ; - By default this disallows to load images from third-party servers, e.g. when
 ;   they are embedded in documents. If you wish to allow that, you can adjust the
-;   policy here. See https://github.com/PrivateBin/PrivateBin/wiki/FAQ#why-does-not-it-load-embedded-images
+;   policy here. See https://github.com/CipherVault/CipherVault/wiki/FAQ#why-does-not-it-load-embedded-images
 ;   for details.
 ; - The 'wasm-unsafe-eval' is used to enable webassembly support (used for zlib
 ;   compression). You can remove it if compression doesn't need to be supported.
@@ -123,7 +123,7 @@ languageselection = false
 ; connection (insecure HTTP instead of HTTPS), defaults to true.
 ; Secure transport methods like Tor and I2P domains are automatically whitelisted.
 ; It is **strongly discouraged** to disable this.
-; See https://github.com/PrivateBin/PrivateBin/wiki/FAQ#why-does-it-show-me-an-error-about-an-insecure-connection for more information.
+; See https://github.com/CipherVault/CipherVault/wiki/FAQ#why-does-it-show-me-an-error-about-an-insecure-connection for more information.
 ; httpwarning = true
 
 ; Pick compression algorithm or disable it. Only applies to documents & comments
@@ -206,9 +206,9 @@ dir = PATH "data"
 ; example of DB configuration for MySQL
 ;class = Database
 ;[model_options]
-;dsn = "mysql:host=localhost;dbname=privatebin;charset=UTF8"
-;tbl = "privatebin_"	; table prefix
-;usr = "privatebin"
+;dsn = "mysql:host=localhost;dbname=CipherVault;charset=UTF8"
+;tbl = "CipherVault_"	; table prefix
+;usr = "CipherVault"
 ;pwd = "Z3r0P4ss"
 ;opt[12] = true	  ; PDO::ATTR_PERSISTENT
 
@@ -225,9 +225,9 @@ dir = PATH "data"
 ; example of DB configuration for PostgreSQL
 ;class = Database
 ;[model_options]
-;dsn = "pgsql:host=localhost;dbname=privatebin"
-;tbl = "privatebin_"     ; table prefix
-;usr = "privatebin"
+;dsn = "pgsql:host=localhost;dbname=CipherVault"
+;tbl = "CipherVault_"     ; table prefix
+;usr = "CipherVault"
 ;pwd = "Z3r0P4ss"
 ;opt[12] = true    ; PDO::ATTR_PERSISTENT
 
@@ -269,7 +269,7 @@ dir = PATH "data"
 ;[shlink]
 ; - Shlink requires you to make a post call with a generated API key.
 ;   use this section to setup the API key and URL. In order to use this section,
-;   "urlshortener" needs to point to the base URL of your PrivateBin
+;   "urlshortener" needs to point to the base URL of your CipherVault
 ;   instance with "?shortenviashlink&link=" appended. For example:
 ;   urlshortener = "${basepath}?shortenviashlink&link="
 ;   This URL will in turn call Shlink on the server side, using the URL from
@@ -280,10 +280,10 @@ dir = PATH "data"
 ;[yourls]
 ; When using YOURLS as a "urlshortener" config item:
 ; - By default, "urlshortener" will point to the YOURLS API URL, with or without
-;   credentials, and will be visible in public on the PrivateBin web page.
+;   credentials, and will be visible in public on the CipherVault web page.
 ;   Only use this if you allow short URL creation without credentials.
 ; - Alternatively, using the parameters in this section ("signature" and
-;   "apiurl"), "urlshortener" needs to point to the base URL of your PrivateBin
+;   "apiurl"), "urlshortener" needs to point to the base URL of your CipherVault
 ;   instance with "?shortenviayourls&link=" appended. For example:
 ;   urlshortener = "${basepath}?shortenviayourls&link="
 ;   This URL will in turn call YOURLS on the server side, using the URL from
@@ -291,11 +291,12 @@ dir = PATH "data"
 
 ; (optional) the "signature" (access key) issued by YOURLS for the using account
 ; signature = ""
-; (optional) the URL of the YOURLS API, called to shorten a PrivateBin URL
+; (optional) the URL of the YOURLS API, called to shorten a CipherVault URL
 ; apiurl = "https://yourls.example.com/yourls-api.php"
 
 ;[sri]
 ; Subresource integrity (SRI) hashes used in template files. Uncomment and set
 ; these for all js files used. See:
-; https://github.com/PrivateBin/PrivateBin/wiki/FAQ#user-content-how-to-make-privatebin-work-when-i-have-changed-some-javascript-files
-;js/privatebin.js = "sha512-[…]"
+; https://github.com/CipherVault/CipherVault/wiki/FAQ#user-content-how-to-make-CipherVault-work-when-i-have-changed-some-javascript-files
+;js/CipherVault.js = "sha512-[…]"
+

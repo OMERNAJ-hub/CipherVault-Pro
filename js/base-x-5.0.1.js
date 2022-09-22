@@ -124,3 +124,4 @@ this.baseX = function base (ALPHABET) {
   }
 }
 }).call(this);
+

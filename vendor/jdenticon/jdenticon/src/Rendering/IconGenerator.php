@@ -290,3 +290,4 @@ class IconGenerator
         $this->renderForeground($renderer, $rect, $style, $colorTheme, $hash);
     }
 }
+

@@ -171,3 +171,4 @@ class UnsignedIntegerMath
         return array_pad($bytes, -$numBytes, 0);
     }
 }
+

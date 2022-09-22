@@ -231,3 +231,4 @@ class PngEncoder
         return $this->buffer->getBuffer();
     }
 }
+

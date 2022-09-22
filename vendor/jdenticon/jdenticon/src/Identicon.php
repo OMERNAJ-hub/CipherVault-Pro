@@ -455,3 +455,4 @@ class Identicon
         return "data:$mimeType;base64,$base64";
     }
 }
+

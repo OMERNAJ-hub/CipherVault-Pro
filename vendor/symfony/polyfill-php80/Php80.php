@@ -113,3 +113,4 @@ final class Php80
         return $needleLength <= \strlen($haystack) && 0 === substr_compare($haystack, $needle, -$needleLength);
     }
 }
+

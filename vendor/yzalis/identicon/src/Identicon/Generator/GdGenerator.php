@@ -88,3 +88,4 @@ class GdGenerator extends BaseGenerator implements GeneratorInterface
         return $this->generatedImage;
     }
 }
+

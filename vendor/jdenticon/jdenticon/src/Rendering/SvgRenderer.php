@@ -135,3 +135,4 @@ class SvgRenderer extends AbstractRenderer
         return $svg;
     }
 }
+

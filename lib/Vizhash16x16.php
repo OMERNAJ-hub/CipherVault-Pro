@@ -3,14 +3,14 @@
  * VizHash_GD
  *
  * Visual Hash implementation in php4+GD,
- * stripped down from version 0.0.5 beta, modified for PrivateBin
+ * stripped down from version 0.0.5 beta, modified for CipherVault
  *
  * @link      https://sebsauvage.net/wiki/doku.php?id=php:vizhash_gd
  * @copyright 2012 Sébastien SAUVAGE (sebsauvage.net)
  * @license   https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License
  */
 
-namespace PrivateBin;
+namespace CipherVault;
 
 /**
  * Vizhash16x16
@@ -233,3 +233,4 @@ class Vizhash16x16
         }
     }
 }
+

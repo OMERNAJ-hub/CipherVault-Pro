@@ -1,27 +1,27 @@
 <?php declare(strict_types=1);
 /**
- * PrivateBin
+ * CipherVault
  *
  * a zero-knowledge paste bin
  *
- * @link      https://github.com/PrivateBin/PrivateBin
+ * @link      https://github.com/CipherVault/CipherVault
  * @copyright 2012 Sébastien SAUVAGE (sebsauvage.net)
  * @license   https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License
  */
 
-namespace PrivateBin\Persistence;
+namespace CipherVault\Persistence;
 
-use PrivateBin\Data\AbstractData;
+use CipherVault\Data\AbstractData;
 
 /**
  * ServerSalt
  *
- * This is a random string which is unique to each PrivateBin installation.
+ * This is a random string which is unique to each CipherVault installation.
  * It is automatically created if not present.
  *
  * Salt is used:
- * - to generate unique VizHash in discussions (which are not reproductible across PrivateBin servers)
- * - to generate unique deletion token (which are not re-usable across PrivateBin servers)
+ * - to generate unique VizHash in discussions (which are not reproductible across CipherVault servers)
+ * - to generate unique deletion token (which are not re-usable across CipherVault servers)
  */
 class ServerSalt extends AbstractPersistence
 {
@@ -84,3 +84,4 @@ class ServerSalt extends AbstractPersistence
         parent::setStore($store);
     }
 }
+

@@ -1,5 +1,5 @@
 <?php declare(strict_types=1);
-use PrivateBin\I18n;
+use CipherVault\I18n;
 ?><!DOCTYPE html>
 <html lang="<?php echo I18n::getLanguage(); ?>"<?php echo I18n::isRtl() ? ' dir="rtl"' : ''; ?>>
 	<head>
@@ -28,3 +28,4 @@ endif;
 ?>
 	</body>
 </html>
+

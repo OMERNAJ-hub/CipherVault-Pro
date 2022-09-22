@@ -1,23 +1,23 @@
 <?php declare(strict_types=1);
 /**
- * PrivateBin
+ * CipherVault
  *
  * a zero-knowledge paste bin
  *
- * @link      https://github.com/PrivateBin/PrivateBin
+ * @link      https://github.com/CipherVault/CipherVault
  * @copyright 2012 Sébastien SAUVAGE (sebsauvage.net)
  * @license   https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License
  */
 
-namespace PrivateBin;
+namespace CipherVault;
 
 use Exception;
-use PrivateBin\Exception\TranslatedException;
-use PrivateBin\Persistence\ServerSalt;
-use PrivateBin\Persistence\TrafficLimiter;
-use PrivateBin\Proxy\AbstractProxy;
-use PrivateBin\Proxy\ShlinkProxy;
-use PrivateBin\Proxy\YourlsProxy;
+use CipherVault\Exception\TranslatedException;
+use CipherVault\Persistence\ServerSalt;
+use CipherVault\Persistence\TrafficLimiter;
+use CipherVault\Proxy\AbstractProxy;
+use CipherVault\Proxy\ShlinkProxy;
+use CipherVault\Proxy\YourlsProxy;
 
 /**
  * Controller
@@ -114,7 +114,7 @@ class Controller
     /**
      * constructor
      *
-     * initializes and runs PrivateBin
+     * initializes and runs CipherVault
      *
      * @param ?Configuration $config
      *
@@ -124,11 +124,11 @@ class Controller
     public function __construct(?Configuration $config = null)
     {
         if (version_compare(PHP_VERSION, self::MIN_PHP_VERSION) < 0) {
-            error_log(I18n::_('%s requires php %s or above to work. Sorry.', I18n::_('PrivateBin'), self::MIN_PHP_VERSION));
+            error_log(I18n::_('%s requires php %s or above to work. Sorry.', I18n::_('CipherVault'), self::MIN_PHP_VERSION));
             return;
         }
         if (strlen(PATH) > 0 && substr(PATH, -1) !== DIRECTORY_SEPARATOR) {
-            error_log(I18n::_('%s requires the PATH to end in a "%s". Please update the PATH in your index.php.', I18n::_('PrivateBin'), DIRECTORY_SEPARATOR));
+            error_log(I18n::_('%s requires the PATH to end in a "%s". Please update the PATH in your index.php.', I18n::_('CipherVault'), DIRECTORY_SEPARATOR));
             return;
         }
 
@@ -177,7 +177,7 @@ class Controller
     }
 
     /**
-     * initialize PrivateBin
+     * initialize CipherVault
      *
      * @access private
      * @throws Exception
@@ -409,7 +409,7 @@ class Controller
         header('Cross-Origin-Embedder-Policy: require-corp');
         // disabled, because it prevents links from a document to the same site to
         // be opened. Didn't work with `same-origin-allow-popups` either.
-        // See issue https://github.com/PrivateBin/PrivateBin/issues/970 for details.
+        // See issue https://github.com/CipherVault/CipherVault/issues/970 for details.
         // header('Cross-Origin-Opener-Policy: same-origin');
         header('Permissions-Policy: browsing-topics=()');
         header('Referrer-Policy: no-referrer');
@@ -423,7 +423,7 @@ class Controller
         }
 
         // translate all the formatter options
-        $formatters = array_map('PrivateBin\\I18n::_', $this->_conf->getSection('formatter_options'));
+        $formatters = array_map('CipherVault\\I18n::_', $this->_conf->getSection('formatter_options'));
 
         // set language cookie if that functionality was enabled
         $languageselection = '';
@@ -580,3 +580,4 @@ class Controller
         }
     }
 }
+

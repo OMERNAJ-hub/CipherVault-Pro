@@ -1,24 +1,24 @@
 <?php declare(strict_types=1);
 /**
- * PrivateBin
+ * CipherVault
  *
  * a zero-knowledge paste bin
  *
- * @link      https://github.com/PrivateBin/PrivateBin
+ * @link      https://github.com/CipherVault/CipherVault
  * @copyright 2012 Sébastien SAUVAGE (sebsauvage.net)
  * @license   https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License
  */
 
-namespace PrivateBin\Model;
+namespace CipherVault\Model;
 
-use PrivateBin\Controller;
-use PrivateBin\Exception\TranslatedException;
-use PrivateBin\Persistence\ServerSalt;
+use CipherVault\Controller;
+use CipherVault\Exception\TranslatedException;
+use CipherVault\Persistence\ServerSalt;
 
 /**
  * Paste
  *
- * Model of a PrivateBin paste.
+ * Model of a CipherVault paste.
  */
 class Paste extends AbstractModel
 {
@@ -180,7 +180,7 @@ class Paste extends AbstractModel
      *
      * The token is the hmac of the pastes ID signed with the server salt.
      * The paste can be deleted by calling:
-     * https://example.com/privatebin/?pasteid=<pasteid>&deletetoken=<deletetoken>
+     * https://example.com/CipherVault/?pasteid=<pasteid>&deletetoken=<deletetoken>
      *
      * @access public
      * @return string
@@ -260,3 +260,4 @@ class Paste extends AbstractModel
         }
     }
 }
+

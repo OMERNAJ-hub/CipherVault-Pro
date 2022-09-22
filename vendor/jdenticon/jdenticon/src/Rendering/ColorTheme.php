@@ -83,3 +83,4 @@ class ColorTheme
         return 5;
     }
 }
+

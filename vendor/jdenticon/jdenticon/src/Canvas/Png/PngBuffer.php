@@ -90,3 +90,4 @@ class PngBuffer
         return $this->buffer;
     }
 }
+

@@ -352,3 +352,4 @@ class Pattern extends AbstractRange
         }
     }
 }
+

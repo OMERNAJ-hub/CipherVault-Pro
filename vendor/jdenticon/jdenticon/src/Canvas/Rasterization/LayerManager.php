@@ -147,3 +147,4 @@ class LayerManager
         $this->color = $color;
     }
 }
+

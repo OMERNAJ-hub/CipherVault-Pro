@@ -1,6 +1,6 @@
 <?php return array(
     'root' => array(
-        'name' => 'privatebin/privatebin',
+        'name' => 'CipherVault/CipherVault',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
         'reference' => '8a77305838325d7be15b9a96e43415a6d2796489',
@@ -28,7 +28,7 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-        'privatebin/privatebin' => array(
+        'CipherVault/CipherVault' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
             'reference' => '8a77305838325d7be15b9a96e43415a6d2796489',
@@ -57,3 +57,4 @@
         ),
     ),
 );
+

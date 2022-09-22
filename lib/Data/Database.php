@@ -1,22 +1,22 @@
 <?php declare(strict_types=1);
 /**
- * PrivateBin
+ * CipherVault
  *
  * a zero-knowledge paste bin
  *
- * @link      https://github.com/PrivateBin/PrivateBin
+ * @link      https://github.com/CipherVault/CipherVault
  * @copyright 2012 Sébastien SAUVAGE (sebsauvage.net)
  * @license   https://www.opensource.org/licenses/zlib-license.php The zlib/libpng License
  */
 
-namespace PrivateBin\Data;
+namespace CipherVault\Data;
 
 use Exception;
 use JsonException;
 use PDO;
 use PDOException;
-use PrivateBin\Controller;
-use PrivateBin\Json;
+use CipherVault\Controller;
+use CipherVault\Json;
 
 /**
  * Database
@@ -504,13 +504,13 @@ class Database extends AbstractData
             $result = $statement->fetch(PDO::FETCH_ASSOC);
             if ($this->_type === 'oci' && is_array($result)) {
                 // returned CLOB values are streams, convert these into strings
-                $result = array_map('PrivateBin\Data\Database::_sanitizeClob', $result);
+                $result = array_map('CipherVault\Data\Database::_sanitizeClob', $result);
             }
         } elseif ($this->_type === 'oci') {
             // workaround for https://bugs.php.net/bug.php?id=46728
             $result = [];
             while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
-                $result[] = array_map('PrivateBin\Data\Database::_sanitizeClob', $row);
+                $result[] = array_map('CipherVault\Data\Database::_sanitizeClob', $row);
             }
         } else {
             $result = $statement->fetchAll(PDO::FETCH_ASSOC);
@@ -906,3 +906,4 @@ class Database extends AbstractData
         );
     }
 }
+
